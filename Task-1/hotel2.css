@@ -1,0 +1,54 @@
+/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"); */
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap');
+* {
+    font-family: 'Merienda', cursive;
+}
+.h-font {
+    font-family: 'Poppins', sans-serif;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+/* .swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+} */
+
+.custom-bg {
+    background-color: #2ec1ac;
+    border: 1px solid #2ec1ac;
+}
+
+.custom-bg:hover {
+    background-color: #279e8c;
+    border: 1px solid #279e8c;
+}
+
+.availability-form {
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
+
+@media screen and (max-width: 575px) {
+    .availability-form {
+        margin-top: 25px;
+        padding: 0 35px;
+    }
+}
+
+
